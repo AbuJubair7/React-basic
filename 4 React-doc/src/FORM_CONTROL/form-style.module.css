@@ -1,0 +1,62 @@
+.formGroup {
+  padding: 10px;
+}
+input[type="text"] {
+  border: 1px solid black;
+  padding: 5px;
+  width: 200px;
+  height: auto;
+  border-radius: 5px;
+}
+
+input {
+  border: 1px solid black;
+  padding: 5px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+form {
+  display: block;
+  width: 500px;
+  border: 2px solid green;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+fieldset {
+  background: rgba(219, 27, 27, 0.2);
+}
+legend {
+  color: blueviolet;
+  font-size: larger;
+  font-weight: bold;
+  text-align: center;
+}
+
+input[type="submit"]:hover {
+  background-color: purple;
+  color: white;
+  transition: 0.2s background-color;
+  cursor: pointer;
+  outline: none;
+}
+.loadingDiv {
+  position: absolute;
+  text-align: center;
+  top: 160vh;
+  width: 100%;
+  z-index: 1;
+  height: 110%;
+  color: white;
+  background: rgba(12, 11, 11, 0.7);
+  display: none;
+}
+
+.loadingDiv > h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
